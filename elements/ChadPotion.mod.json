@@ -1,0 +1,30 @@
+{
+  "_fv": 24,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Chadwick",
+    "splashName": "Splash Potion of Chadwick",
+    "lingeringName": "Lingering Potion of Chadwick",
+    "arrowName": "Arrow of Chadwick",
+    "effects": [
+      {
+        "effect": {
+          "value": "SLOWNESS"
+        },
+        "duration": 3600,
+        "amplifier": 100,
+        "ambient": true,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "WEAKNESS"
+        },
+        "duration": 10,
+        "amplifier": 100,
+        "ambient": true,
+        "showParticles": true
+      }
+    ]
+  }
+}

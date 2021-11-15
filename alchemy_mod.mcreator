@@ -1,0 +1,46 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "ChadPotion",
+      "type": "potion",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chad_potion"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.minecraft.splash_potion.effect.chad_potion": "Splash Potion of Chadwick",
+      "item.minecraft.lingering_potion.effect.chad_potion": "Lingering Potion of Chadwick",
+      "item.minecraft.potion.effect.chad_potion": "Potion of Chadwick",
+      "item.minecraft.tipped_arrow.effect.chad_potion": "Arrow of Chadwick"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "alchemy_mod",
+    "modName": "Alchemy Mod",
+    "version": "1.0.0",
+    "author": "Ross Kondo, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.alchemymod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100236710
+}
