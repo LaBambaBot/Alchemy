@@ -11,8 +11,8 @@ import net.minecraft.potion.Effects;
 import net.minecraft.potion.EffectInstance;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
-public class ChadPotionPotion {
-	@ObjectHolder("alchemy_mod:chad_potion")
+public class SteelBodyPotion {
+	@ObjectHolder("alchemy_mod:steel_body")
 	public static final Potion potionType = null;
 	@SubscribeEvent
 	public static void registerPotion(RegistryEvent.Register<Potion> event) {
@@ -20,9 +20,9 @@ public class ChadPotionPotion {
 	}
 	public static class PotionCustom extends Potion {
 		public PotionCustom() {
-			super(new EffectInstance(Effects.SLOWNESS, 200, 100, true, true), new EffectInstance(Effects.WEAKNESS, 200, 100, true, true),
-					new EffectInstance(Effects.MINING_FATIGUE, 200, 100, true, true));
-			setRegistryName("chad_potion");
+			super(new EffectInstance(Effects.HEALTH_BOOST, 200, 10, false, true), new EffectInstance(Effects.SLOWNESS, 100, 2, false, true),
+					new EffectInstance(Effects.RESISTANCE, 200, 10, false, true));
+			setRegistryName("steel_body");
 		}
 	}
 }

@@ -11,7 +11,7 @@
         "effect": {
           "value": "SLOWNESS"
         },
-        "duration": 3600,
+        "duration": 200,
         "amplifier": 100,
         "ambient": true,
         "showParticles": true
@@ -20,7 +20,16 @@
         "effect": {
           "value": "WEAKNESS"
         },
-        "duration": 10,
+        "duration": 200,
+        "amplifier": 100,
+        "ambient": true,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "MINING_FATIGUE"
+        },
+        "duration": 200,
         "amplifier": 100,
         "ambient": true,
         "showParticles": true

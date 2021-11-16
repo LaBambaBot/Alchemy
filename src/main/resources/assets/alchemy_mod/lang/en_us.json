@@ -1,6 +1,10 @@
 {
   "item.minecraft.splash_potion.effect.chad_potion": "Splash Potion of Chadwick",
+  "item.minecraft.tipped_arrow.effect.steel_body": "Arrow of Steel Body",
+  "item.minecraft.potion.effect.steel_body": "Potion of Steel Body",
   "item.minecraft.lingering_potion.effect.chad_potion": "Lingering Potion of Chadwick",
+  "item.minecraft.splash_potion.effect.steel_body": "Splash Potion of Steel Body",
+  "item.minecraft.lingering_potion.effect.steel_body": "Lingering Potion of Steel Body",
   "item.minecraft.potion.effect.chad_potion": "Potion of Chadwick",
   "item.minecraft.tipped_arrow.effect.chad_potion": "Arrow of Chadwick"
 }
