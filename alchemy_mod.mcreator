@@ -18,6 +18,76 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "steel_body"
+    },
+    {
+      "name": "Noobangel",
+      "type": "potion",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "noobangel"
+    },
+    {
+      "name": "FireBreathEffectStartedapplied",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fire_breath_effect_startedapplied",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FireBreathEffectExpires",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fire_breath_effect_expires",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FireBreath",
+      "type": "potioneffect",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fire_breath"
+    },
+    {
+      "name": "FireDamage",
+      "type": "potion",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fire_damage"
+    },
+    {
+      "name": "Alchemymod",
+      "type": "tab",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alchemymod"
     }
   ],
   "variable_elements": [],
@@ -26,10 +96,20 @@
     "en_us": {
       "item.minecraft.splash_potion.effect.chad_potion": "Splash Potion of Chadwick",
       "item.minecraft.tipped_arrow.effect.steel_body": "Arrow of Steel Body",
+      "item.minecraft.lingering_potion.effect.fire_damage": "Lingering Potion of Fire Damage",
       "item.minecraft.potion.effect.steel_body": "Potion of Steel Body",
+      "itemGroup.tabalchemymod": "Alchemymod",
+      "effect.fire_breath": "FireBreath",
+      "item.minecraft.splash_potion.effect.noobangel": "Splash Potion of Noobangel",
+      "item.minecraft.potion.effect.fire_damage": "Potion of Fire Damage",
+      "item.minecraft.potion.effect.noobangel": "Potion of Noobangel",
+      "item.minecraft.tipped_arrow.effect.fire_damage": "Arrow of Fire Damage",
+      "item.minecraft.lingering_potion.effect.noobangel": "Lingering Potion of Noobangel",
+      "item.minecraft.splash_potion.effect.fire_damage": "Splash Potion of Fire Damage",
       "item.minecraft.lingering_potion.effect.chad_potion": "Lingering Potion of Chadwick",
       "item.minecraft.splash_potion.effect.steel_body": "Splash Potion of Steel Body",
       "item.minecraft.lingering_potion.effect.steel_body": "Lingering Potion of Steel Body",
+      "item.minecraft.tipped_arrow.effect.noobangel": "Arrow of Noobangel",
       "item.minecraft.potion.effect.chad_potion": "Potion of Chadwick",
       "item.minecraft.tipped_arrow.effect.chad_potion": "Arrow of Chadwick"
     }

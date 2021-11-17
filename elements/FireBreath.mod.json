@@ -1,0 +1,17 @@
+{
+  "_fv": 24,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "FireBreath",
+    "icon": "this_is_called_doing__the_dragon__2013-12-28_22-39.png",
+    "color": {
+      "value": -52480,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": false,
+    "isBenefitical": true,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true
+  }
+}
