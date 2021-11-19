@@ -8,7 +8,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "chad_potion"
+      "registry_name": "chad_potion",
+      "path": "~/ChadPotion1"
     },
     {
       "name": "SteelBody",
@@ -17,7 +18,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "steel_body"
+      "registry_name": "steel_body",
+      "path": "~/SteelBody1"
     },
     {
       "name": "Noobangel",
@@ -26,7 +28,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "noobangel"
+      "registry_name": "noobangel",
+      "path": "~/NoobPotion1"
     },
     {
       "name": "FireBreathEffectStartedapplied",
@@ -43,7 +46,8 @@
             "type": "itemstack"
           }
         ]
-      }
+      },
+      "path": "~/FireBreath"
     },
     {
       "name": "FireBreathEffectExpires",
@@ -60,7 +64,8 @@
             "type": "itemstack"
           }
         ]
-      }
+      },
+      "path": "~/FireBreath"
     },
     {
       "name": "FireBreath",
@@ -69,7 +74,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "fire_breath"
+      "registry_name": "fire_breath",
+      "path": "~/FireBreath"
     },
     {
       "name": "FireDamage",
@@ -78,7 +84,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "fire_damage"
+      "registry_name": "fire_damage",
+      "path": "~/FireBreath"
     },
     {
       "name": "Alchemymod",
@@ -108,7 +115,18 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/FireBreath"
+    },
+    {
+      "name": "FireBreathRecipe",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fire_breath_recipe",
+      "path": "~/FireBreath"
     }
   ],
   "variable_elements": [],
@@ -137,7 +155,24 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "FireBreath",
+        "children": []
+      },
+      {
+        "name": "SteelBody1",
+        "children": []
+      },
+      {
+        "name": "ChadPotion1",
+        "children": []
+      },
+      {
+        "name": "NoobPotion1",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "alchemy_mod",
