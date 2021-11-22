@@ -20,8 +20,8 @@ public class SteelBodyPotion {
 	}
 	public static class PotionCustom extends Potion {
 		public PotionCustom() {
-			super(new EffectInstance(Effects.HEALTH_BOOST, 200, 10, false, true), new EffectInstance(Effects.SLOWNESS, 100, 2, false, true),
-					new EffectInstance(Effects.RESISTANCE, 200, 10, false, true), new EffectInstance(Effects.INSTANT_HEALTH, 10, 0, false, true));
+			super(new EffectInstance(Effects.SLOWNESS, 100, 2, false, true), new EffectInstance(Effects.RESISTANCE, 200, 10, false, true),
+					new EffectInstance(SteelbodyeffectPotionEffect.potion, 3600, 1, false, true));
 			setRegistryName("steel_body");
 		}
 	}

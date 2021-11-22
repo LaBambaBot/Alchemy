@@ -9,15 +9,6 @@
     "effects": [
       {
         "effect": {
-          "value": "HEALTH_BOOST"
-        },
-        "duration": 200,
-        "amplifier": 10,
-        "ambient": false,
-        "showParticles": true
-      },
-      {
-        "effect": {
           "value": "SLOWNESS"
         },
         "duration": 100,
@@ -36,10 +27,10 @@
       },
       {
         "effect": {
-          "value": "INSTANT_HEALTH"
+          "value": "CUSTOM:Steelbodyeffect"
         },
-        "duration": 10,
-        "amplifier": 0,
+        "duration": 3600,
+        "amplifier": 1,
         "ambient": false,
         "showParticles": true
       }
