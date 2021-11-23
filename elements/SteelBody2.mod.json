@@ -2,16 +2,16 @@
   "_fv": 24,
   "_type": "potion",
   "definition": {
-    "potionName": "Potion of Steel Body",
-    "splashName": "Splash Potion of Steel Body",
-    "lingeringName": "Lingering Potion of Steel Body",
-    "arrowName": "Arrow of Steel Body",
+    "potionName": "Potion of Steel Body 2",
+    "splashName": "Splash Potion of Steel Body 2",
+    "lingeringName": "Lingering Potion of Steel Body 2",
+    "arrowName": "Arrow of Steel Body 2",
     "effects": [
       {
         "effect": {
-          "value": "SLOWNESS"
+          "value": "CUSTOM:Steelbodyeffect"
         },
-        "duration": 100,
+        "duration": 500,
         "amplifier": 2,
         "ambient": false,
         "showParticles": true
@@ -20,17 +20,17 @@
         "effect": {
           "value": "RESISTANCE"
         },
-        "duration": 1000,
-        "amplifier": 10,
+        "duration": 500,
+        "amplifier": 2,
         "ambient": false,
         "showParticles": true
       },
       {
         "effect": {
-          "value": "CUSTOM:Steelbodyeffect"
+          "value": "SLOWNESS"
         },
-        "duration": 1000,
-        "amplifier": 0,
+        "duration": 50,
+        "amplifier": 100,
         "ambient": false,
         "showParticles": true
       }

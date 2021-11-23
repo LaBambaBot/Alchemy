@@ -11,8 +11,8 @@ import net.minecraft.potion.Effects;
 import net.minecraft.potion.EffectInstance;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
-public class SteelBodyPotion {
-	@ObjectHolder("alchemy_mod:steel_body")
+public class SteelBody2Potion {
+	@ObjectHolder("alchemy_mod:steel_body_2")
 	public static final Potion potionType = null;
 	@SubscribeEvent
 	public static void registerPotion(RegistryEvent.Register<Potion> event) {
@@ -20,9 +20,9 @@ public class SteelBodyPotion {
 	}
 	public static class PotionCustom extends Potion {
 		public PotionCustom() {
-			super(new EffectInstance(Effects.SLOWNESS, 100, 2, false, true), new EffectInstance(Effects.RESISTANCE, 1000, 10, false, true),
-					new EffectInstance(SteelbodyeffectPotionEffect.potion, 1000, 0, false, true));
-			setRegistryName("steel_body");
+			super(new EffectInstance(SteelbodyeffectPotionEffect.potion, 500, 2, false, true),
+					new EffectInstance(Effects.RESISTANCE, 500, 2, false, true), new EffectInstance(Effects.SLOWNESS, 50, 100, false, true));
+			setRegistryName("steel_body_2");
 		}
 	}
 }

@@ -173,6 +173,36 @@
         ]
       },
       "path": "~/SteelBody1"
+    },
+    {
+      "name": "SteelBodyRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_body_recipe",
+      "path": "~/SteelBody1"
+    },
+    {
+      "name": "SteelBody2",
+      "type": "potion",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_body_2",
+      "path": "~/SteelBody2"
+    },
+    {
+      "name": "SteelBody2Recipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_body_2_recipe",
+      "path": "~/SteelBody2"
     }
   ],
   "variable_elements": [],
@@ -190,10 +220,14 @@
       "item.minecraft.potion.effect.noobangel": "Potion of Noobangel",
       "effect.steelbodyeffect": "Steelbody",
       "item.minecraft.tipped_arrow.effect.fire_damage": "Arrow of Fire Damage",
+      "item.minecraft.splash_potion.effect.steel_body_2": "Splash Potion of Steel Body 2",
       "item.minecraft.lingering_potion.effect.noobangel": "Lingering Potion of Noobangel",
+      "item.minecraft.lingering_potion.effect.steel_body_2": "Lingering Potion of Steel Body 2",
+      "item.minecraft.tipped_arrow.effect.steel_body_2": "Arrow of Steel Body 2",
       "item.minecraft.splash_potion.effect.fire_damage": "Splash Potion of Fire Damage",
       "item.minecraft.lingering_potion.effect.chad_potion": "Lingering Potion of Chadwick",
       "item.minecraft.splash_potion.effect.steel_body": "Splash Potion of Steel Body",
+      "item.minecraft.potion.effect.steel_body_2": "Potion of Steel Body 2",
       "item.minecraft.lingering_potion.effect.steel_body": "Lingering Potion of Steel Body",
       "item.minecraft.tipped_arrow.effect.noobangel": "Arrow of Noobangel",
       "item.minecraft.potion.effect.chad_potion": "Potion of Chadwick",
@@ -217,6 +251,10 @@
       },
       {
         "name": "NoobPotion1",
+        "children": []
+      },
+      {
+        "name": "SteelBody2",
         "children": []
       }
     ]
