@@ -4,14 +4,14 @@
   "definition": {
     "renderType": 2,
     "texture": "texture",
-    "customModelName": "model:default",
+    "customModelName": "10195_orange-l2:default",
     "name": "Orange",
     "specialInfo": [],
     "creativeTab": {
       "value": "TOOLS"
     },
     "toolType": "Pickaxe",
-    "harvestLevel": 1,
+    "harvestLevel": 100000,
     "efficiency": 4.0,
     "attackSpeed": 1.0,
     "enchantability": 2,
@@ -20,8 +20,8 @@
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [],
-    "immuneToFire": false,
-    "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": true,
+    "damageOnCrafting": true
   }
 }

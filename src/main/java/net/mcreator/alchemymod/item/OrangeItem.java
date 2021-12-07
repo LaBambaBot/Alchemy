@@ -5,6 +5,7 @@ import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.PickaxeItem;
+import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
@@ -35,7 +36,7 @@ public class OrangeItem extends AlchemyModModElements.ModElement {
 			}
 
 			public int getHarvestLevel() {
-				return 1;
+				return 100000;
 			}
 
 			public int getEnchantability() {
@@ -45,7 +46,26 @@ public class OrangeItem extends AlchemyModModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.EMPTY;
 			}
-		}, 1, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
+		}, 1, -3f, new Item.Properties().group(ItemGroup.TOOLS).isImmuneToFire()) {
+			@Override
+			public boolean hasContainerItem() {
+				return true;
+			}
+
+			@Override
+			public ItemStack getContainerItem(ItemStack itemstack) {
+				ItemStack retval = new ItemStack(this);
+				retval.setDamage(itemstack.getDamage() + 1);
+				if (retval.getDamage() >= retval.getMaxDamage()) {
+					return ItemStack.EMPTY;
+				}
+				return retval;
+			}
+
+			@Override
+			public boolean isRepairable(ItemStack itemstack) {
+				return false;
+			}
 		}.setRegistryName("orange"));
 	}
 }

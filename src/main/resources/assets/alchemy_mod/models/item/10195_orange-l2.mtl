@@ -1,0 +1,7 @@
+newmtl navelorangeSG
+Ka 0.0 0.0 0.0
+Kd 0.0 0.0 0.0
+Ks 0.1 0.02 0.0
+map_Kd alchemy_mod:blocks/texture
+Ns 256.0
+d 1.0
