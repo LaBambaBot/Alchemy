@@ -8,14 +8,9 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.entity.Entity;
-import net.minecraft.client.renderer.texture.OverlayTexture;
 import net.minecraft.client.renderer.model.ModelRenderer;
 import net.minecraft.client.renderer.entity.model.EntityModel;
-import net.minecraft.client.renderer.entity.layers.LayerRenderer;
 import net.minecraft.client.renderer.entity.MobRenderer;
-import net.minecraft.client.renderer.entity.IEntityRenderer;
-import net.minecraft.client.renderer.RenderType;
-import net.minecraft.client.renderer.IRenderTypeBuffer;
 
 import net.mcreator.alchemymod.entity.RatOrangeEntity;
 
@@ -30,29 +25,12 @@ public class RatOrangeRenderer {
 		public void registerModels(ModelRegistryEvent event) {
 			RenderingRegistry.registerEntityRenderingHandler(RatOrangeEntity.entity, renderManager -> {
 				return new MobRenderer(renderManager, new ModelRatOrange(), 0.5f) {
-					{
-						this.addLayer(new GlowingLayer<>(this));
-					}
 					@Override
 					public ResourceLocation getEntityTexture(Entity entity) {
 						return new ResourceLocation("alchemy_mod:textures/texture.png");
 					}
 				};
 			});
-		}
-	}
-
-	@OnlyIn(Dist.CLIENT)
-	private static class GlowingLayer<T extends Entity, M extends EntityModel<T>> extends LayerRenderer<T, M> {
-		public GlowingLayer(IEntityRenderer<T, M> er) {
-			super(er);
-		}
-
-		public void render(MatrixStack matrixStackIn, IRenderTypeBuffer bufferIn, int packedLightIn, T entitylivingbaseIn, float limbSwing,
-				float limbSwingAmount, float partialTicks, float ageInTicks, float netHeadYaw, float headPitch) {
-			IVertexBuilder ivertexbuilder = bufferIn
-					.getBuffer(RenderType.getEyes(new ResourceLocation("alchemy_mod:textures/steelskin_skill_icon.png")));
-			this.getEntityModel().render(matrixStackIn, ivertexbuilder, 15728640, OverlayTexture.NO_OVERLAY, 1, 1, 1, 1);
 		}
 	}
 

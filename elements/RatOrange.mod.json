@@ -6,7 +6,7 @@
     "mobLabel": "Rat Orange",
     "mobModelName": "ModelRatOrange",
     "mobModelTexture": "texture.png",
-    "mobModelGlowTexture": "steelskin_skill_icon.png",
+    "mobModelGlowTexture": "",
     "modelWidth": 0.6,
     "modelHeight": 1.8,
     "modelShadowSize": 0.5,
