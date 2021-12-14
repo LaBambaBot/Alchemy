@@ -123,7 +123,7 @@
       "type": "recipe",
       "sortid": 9,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "fire_breath_recipe",
       "path": "~/FireBreath"
@@ -267,8 +267,8 @@
       "item.minecraft.tipped_arrow.effect.steel_body_2": "Arrow of Steel Body 2",
       "item.minecraft.splash_potion.effect.fire_damage": "Splash Potion of Fire Damage",
       "item.minecraft.lingering_potion.effect.chad_potion": "Lingering Potion of Chadwick",
-      "item.minecraft.splash_potion.effect.steel_body": "Splash Potion of Steel Body",
       "item.minecraft.potion.effect.steel_body_2": "Potion of Steel Body 2",
+      "item.minecraft.splash_potion.effect.steel_body": "Splash Potion of Steel Body",
       "item.minecraft.lingering_potion.effect.steel_body": "Lingering Potion of Steel Body",
       "item.minecraft.tipped_arrow.effect.chad_potion": "Arrow of Chadwick",
       "item.minecraft.splash_potion.effect.noobangel": "Splash Potion of Noobangel",
